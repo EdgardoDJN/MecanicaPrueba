@@ -51,7 +51,7 @@ void OptimizarCortes(float vector3[],int n2)
 	
 	cin>>exactitud;
 	
-	cout<<"Defina el tamaño maximo del objeto para proceder a realizar cortes correspondientes";
+	cout<<"Defina el tamaÃ±o maximo del objeto para proceder a realizar cortes correspondientes";
 	
 	cin>>corte;
 	
@@ -63,6 +63,7 @@ void OptimizarCortes(float vector3[],int n2)
 			cout<<"Valor de los cortes"<<endl;
 			cout<<vector3[i]<<","<<vector3[i+1]<<endl;
 			//procedemos a eliminar los espacios
+			//prueba
 			flag=1;
 		}
 		if(flag==1)
